@@ -44,13 +44,12 @@ print('[n.v.e] -- > Найдено %s прокси в списке'%str(length_p
 глобальный дом электронной почты
 глобальный authType
 print(Fore.GREEN+out+Style.DIM)
-печать("----------------t.me/post11x----------------")
-печать("----------------t.me/post11x_eng------------")
+печать("--------------------------------------------------------------------------------------")
 authTypeTest = input('Что используем?\nИспользуй \'e\' для почты и \'p\' для номера\nВыбирай: ')
-if authTypeTest.lower() == 'e':
+if authTypeTest.lower() == 's':
     nameEmailOrPhoneNumber = 'Почта'
     authType = 'электронная почта'
-elif authTypeTest.lower() = = 'p':
+elif authTypeTest.lower() = = 'w':
     nameEmailOrPhoneNumber = 'Номер'
     authType = 'номер телефона'
 остальное:
